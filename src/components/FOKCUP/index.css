@@ -84,7 +84,7 @@ main nav .box-contact .img {
   height: 50px;
 }
 main nav .box-contact a:hover img {
-  animation: icone 2s linear infinite;
+  animation: icone 1s linear infinite;
 }
 
 
@@ -129,13 +129,13 @@ main nav .box-contact a:hover img {
     transform: rotate(0);
   }
   25% {
-    transform: rotate(50deg);
+    transform: rotate(25deg);
   }
   50% {
-    transform: rotate(-50);
+    transform: rotate(0);
   }
   75% {
-    transform: rotate(-125deg);
+    transform: rotate(-25deg);
   }
   100% {
     transform: rotate(0);
