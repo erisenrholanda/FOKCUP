@@ -1,16 +1,14 @@
 import React from 'react';
 import style from './index.css';
-import Logo from './img/Logo.png'
+import Logo from './img/Logo.png';
 
 function Header() {
   return(
     <div style={style} className="body">
       <header>
         <li>
-            <a href="./">
-              <img src={Logo} alt="FOK" className="img" />
-            </a>
-          </li>
+          <img src={Logo} alt="FOK" />
+        </li>
       </header>
       <main>
         <span className='nomedoTime'>FOK CUP</span>
@@ -18,13 +16,13 @@ function Header() {
         <nav>
           <div className='box-contact'>
             <a href="https://api.whatsapp.com/message/LKMSVGWEIOTEA1" className='link-contact'>
-              <img src="https://img.icons8.com/nolan/64/whatsapp.png" alt='WhatsApp' className='balanca' />
+              <img src="https://img.icons8.com/nolan/64/whatsapp.png" alt='WhatsApp' />
               <span>WhatsApp</span>
             </a>
           </div>
           <div className='box-contact'>
             <a href="https://www.instagram.com/fokgg/" className='link-contact'>
-              <img src="https://img.icons8.com/nolan/64/instagram-new.png" alt="Instagram" className='balanca' />
+              <img src="https://img.icons8.com/nolan/64/instagram-new.png" alt='Instagram' />
               <span>Instagram</span>
             </a>
           </div>
