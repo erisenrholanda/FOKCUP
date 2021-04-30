@@ -1,0 +1,77 @@
+
+.body {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header li {
+  list-style: none;
+}
+header li a {
+  text-decoration: none;
+  width: 1px;
+  height: 1px;
+
+}
+header a .img {
+  max-width: 65vh;
+  max-height: 80vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 100%;
+  margin: 0 auto;
+}
+main .nomeTime {
+  font-size: 46px;
+  font-weight: 700;
+}
+main nav {
+  width: 50%;
+  flex-wrap: wrap;
+}
+main nav .box-contact {
+  width: 100%;
+  max-height: 90px;
+  min-height: 70px;
+  margin: 10px 0 5px -10px;
+  border-radius: 15px;
+  background: #fafafa;
+  border: 3px solid #fafafa;
+  display: flex;
+  justify-content: center;
+}
+main nav .box-contact:hover {
+  border: 3px solid #00ffff;
+}
+main nav .box-contact .link-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 200;
+  color: red;
+}
+main nav .box-contact .link-contact:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+main nav .box-contact img {
+  width: 50px;
+  height: 50px;
+}
