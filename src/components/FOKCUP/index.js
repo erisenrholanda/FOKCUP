@@ -13,7 +13,7 @@ function Header() {
           </li>
       </header>
       <main>
-        <span className='nomeTime'>FOK CUP</span>
+        <span className='nomedoTime'>FOK CUP</span>
         <span className='descricao'>Organização de Campeonatos de Free Fire</span>
         <nav>
           <div className='box-contact'>
