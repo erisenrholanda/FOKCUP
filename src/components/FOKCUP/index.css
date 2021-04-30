@@ -24,11 +24,10 @@ header li a {
   text-decoration: none;
   width: 1px;
   height: 1px;
-
 }
 header a .img {
   max-width: 65vh;
-  max-height: 80vh;
+  max-height: 80vw;
 }
 
 main {
@@ -80,4 +79,17 @@ main nav .box-contact .link-contact:hover {
 main nav .box-contact img {
   width: 50px;
   height: 50px;
+}
+
+
+@media(max-width: 434px ) {
+  header li a .img {
+    max-width: 43vh;
+  }
+  main nav {
+    width: 65%
+  }
+  main nav .box-contact {
+    margin: 10px 0 5px 0px;
+  }
 }
