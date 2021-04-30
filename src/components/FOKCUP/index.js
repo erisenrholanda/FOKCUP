@@ -14,7 +14,7 @@ function Header() {
       </header>
       <main>
         <span className='nomeTime'>FOK CUP</span>
-        <h1>Organização de Campeonatos de Free Fire</h1>
+        <span className='descricao'>Organização de Campeonatos de Free Fire</span>
         <nav>
           <div className='box-contact'>
             <a href="https://api.whatsapp.com/message/LKMSVGWEIOTEA1" className='link-contact'>
