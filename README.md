@@ -1,2 +1,2 @@
 # FOKCUP
-site simples para meu cunhado diego
+site simples para meu cunhado Diego
