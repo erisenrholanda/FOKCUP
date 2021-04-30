@@ -40,13 +40,14 @@ main {
   margin: 0 auto;
 }
 main span.nomedoTime {
-  font-size: 46px;
+  font-size: 7vh;
   font-weight: 700;
+  text-align: center;
 }
 main span.descricao {
-  font-size: 46px;
+  font-size: 7vh;
   font-weight: lighter;
-  display: flex;
+  text-align: center;
 }
 main nav {
   width: 50%;
@@ -96,6 +97,9 @@ main nav .box-contact img {
   }
   main nav .box-contact {
     margin: 10px 0 5px 0px;
+  }
+  main span.descricao {
+    font-size: 28px;
   }
 }
 
