@@ -18,13 +18,13 @@ function Header() {
         <nav>
           <div className='box-contact'>
             <a href="https://api.whatsapp.com/message/LKMSVGWEIOTEA1" className='link-contact'>
-              <img src="https://img.icons8.com/nolan/64/whatsapp.png" alt='WhatsApp'/>
+              <img src="https://img.icons8.com/nolan/64/whatsapp.png" alt='WhatsApp' className='balanca' />
               <span>WhatsApp</span>
             </a>
           </div>
           <div className='box-contact'>
             <a href="https://www.instagram.com/fokgg/" className='link-contact'>
-              <img src="https://img.icons8.com/nolan/64/instagram-new.png" alt="Instagram" />
+              <img src="https://img.icons8.com/nolan/64/instagram-new.png" alt="Instagram" className='balanca' />
               <span>Instagram</span>
             </a>
           </div>
