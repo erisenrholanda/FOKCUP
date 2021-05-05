@@ -1,6 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 100vh;
+}
+
+@media(max-width: 434px ) {
+  header li a .img {
+    max-width: 40vh;
+  }
+  nav {
+    width: 65%
+  }
+  nav .box-contact {
+    margin: 10px 0 5px 0px;
+  }
+  main span.descricao {
+    font-size: 4vh;
+  }
+  nav .box-contact .link-contact img {
+    min-width: 5vh;
+  }
+  nav .box-contact .link-contact span {
+    font-size: 3vh;
+  }
+}
+
+@media(max-width: 300px) {
+  header li a .img {
+    max-width: 30vh;
+  }
+}
+
+/* @keyframes logo {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+} */
+
+@keyframes icone {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(25deg);
+  }
+  50% {
+    transform: rotate(0);
+  }
+  75% {
+    transform: rotate(-25deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }

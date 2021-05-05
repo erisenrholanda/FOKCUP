@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header li {
+  list-style: none;
+}
+header li  {
+  text-decoration: none;
+}
+header li img {
+  max-width: 40vh;
+  max-height: 80vw;
+  /* animation: logo 2s linear normal; */
+}

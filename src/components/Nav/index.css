@@ -1,0 +1,35 @@
+nav {
+  width: 50%;
+  flex-wrap: wrap;
+}
+nav .box-contact {
+  margin: 10px 0 5px -10px;
+  border-radius: 30px;
+  background: #fafafa;
+  border: 3px solid #fafafa;
+}
+nav .box-contact:hover {
+  border: 3px solid #00ffff;
+}
+nav .box-contact .link-contact {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 200;
+  color: red;
+}
+nav .box-contact .link-contact:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+nav .box-contact .img {
+  width: 50px;
+  height: 50px;
+}
+nav .box-contact a:hover img {
+  animation: icone 1s linear infinite;
+}

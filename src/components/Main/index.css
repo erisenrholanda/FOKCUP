@@ -1,0 +1,20 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 100%;
+  margin: 0 auto;
+}
+main span.nomedoTime {
+  padding: 2vh;
+  font-size: 7vh;
+  font-weight: 700;
+  text-align: center;
+}
+main span.descricao {
+  font-size: 3vh;
+  font-weight: lighter;
+  text-align: center;
+}
