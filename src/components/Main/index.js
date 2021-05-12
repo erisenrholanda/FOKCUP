@@ -16,13 +16,17 @@ function Main() {
         icon = 'https://img.icons8.com/nolan/64/instagram-new.png'
         descricaoImg= 'Instagram' nome= 'Instagram'
       />
+      <Link link = 'https://discord.gg/bY55tW4'
+        icon = 'https://img.icons8.com/nolan/64/discord-logo.png'
+        descricaoImg= 'Discord' nome= 'Discord'
+      />
       {/* <Link link = ''
         icon = 'https://img.icons8.com/nolan/64/youtube-music.png'
         descricaoImg= 'Youtube' nome= 'Youtube'
       />
       <Link link = ''
-        icon = 'https://img.icons8.com/nolan/64/discord-logo.png'
-        descricaoImg= 'Discord' nome= 'Discord'
+        icon = 'https://img.icons8.com/nolan/64/tiktok.png'
+        descricaoImg= 'TikTok' nome= 'TikTok'
       /> */}
     </main>
     </>
